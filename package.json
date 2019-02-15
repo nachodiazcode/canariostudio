@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/nachodiaz/cstudio/issues"
   },
-  "homepage": "https://github.com/nachodiaz/cstudio#readme"
+  "homepage": "https://github.com/nachodiaz/cstudio#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
 }
