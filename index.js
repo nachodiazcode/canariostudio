@@ -8,5 +8,7 @@ app.listen(port, `Esta esuchando en el puerto ${port}`)
 
 
 app.get('/' , (req, res)=>{
-    res.send('hola Mundo')
+    res.render('inicio',{
+        
+    })
 })
