@@ -7,8 +7,8 @@ const app = express()
 
 app.set('view engine', 'pug')
 
-app.get('/', (req, res, err)=>{
-    res.render('inicio', {
+app.get('/', (req, res)=>{
+    res.render('views/inicio', {
         
     })
 })
