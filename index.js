@@ -2,13 +2,12 @@ const express = require('express')
 
 const app = express()
 
-
 const port = 3100
 app.listen(port, `Esta esuchando en el puerto ${port}`)
 
 
 app.get('/' , (req, res)=>{
-    res.render('inicio',{
-        
+    res.render('views/inicio',{
+
     })
 })
