@@ -7,7 +7,7 @@ app.listen(port, `Esta esuchando en el puerto ${port}`)
 
 
 app.get('/' , (req, res)=>{
-    res.render('views/inicio',{
+    res.render('inicio',{
 
     })
 })
