@@ -2,12 +2,12 @@ const express = require('express')
 
 const app = express()
 
-const port = 3100
-app.listen(port, `Esta esuchando en el puerto ${port}`)
-
-
 app.get('/' , (req, res)=>{
     res.render('inicio',{
 
     })
+})
+
+app.listen(5000, () => {
+    console.log('Escuchando en el puerto ' + 5000)
 })
