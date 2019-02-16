@@ -1,5 +1,5 @@
 {
-  "name": "canariostudio",
+  "name": "cstudio",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nachodiaz/canariostudio.git"
+    "url": "git+https://github.com/nachodiaz/cstudio.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/nachodiaz/canariostudio/issues"
+    "url": "https://github.com/nachodiaz/cstudio/issues"
   },
-  "homepage": "https://github.com/nachodiaz/canariostudio#readme",
+  "homepage": "https://github.com/nachodiaz/cstudio#readme",
   "dependencies": {
     "express": "^4.16.4",
     "pug": "^2.0.3"
