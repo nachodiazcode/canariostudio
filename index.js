@@ -6,5 +6,5 @@ app.listen(port, `Esta esuchando en el puerto ${port}`)
 const app = express()
 
 app.get('/' , (req, res)=>{
-    res.send('hola')
+    res.send('hola Mundo')
 })
