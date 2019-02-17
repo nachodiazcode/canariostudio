@@ -15,9 +15,9 @@ body{
 }
 
 nav{
-    background: #FBD202;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #FBD202, #FBD202);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #FBD202, #FBD202); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+    background: #fff;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #fff, #fff);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #fff, #fff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
     height: 72px;   
     font-family: 'Playfair Display', serif;
     font-weight: bold ;
@@ -32,13 +32,30 @@ nav li {
     line-height: 68px ;
 }
 
-.header-image{
-    background:url('/public/img/lee-campbell-106610-unsplash.jpg') center center;
-    background-size:cover;
-    height: 100vh;
-}
 
 nav ul a:hover {
     background-color: rgba(0, 0, 0, 0.1);
     height: 100% !important;
 }
+
+string{
+    font-family: 'Playfair Display', serif;
+}
+
+.header{
+    position: relative;
+    margin-top:160px;
+    height: 200px;
+}
+
+.header-image{
+    background:url('/public/img/samuel-zeller-158996-unsplash.png') center center;
+    background-size:cover;
+    height: 100vh;
+}
+
+.title{
+    font-weight: bold !important ;
+    color:rgb(248, 227, 110) !important ;
+}
+
