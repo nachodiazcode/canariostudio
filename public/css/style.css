@@ -1,8 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,900');
 
-
 body{
-   background-color:rgb(221, 236, 243);  
+   background-color:rgb(221, 236, 243); 
+   margin: 0px !important; 
+   margin-bottom: 0px ;
+   margin-top:0px ;
+   margin-left:0px ;
+   margin-right:0px ;
+   padding:0px !important ;
+   padding-left:0px ;
+   padding-right:0px ;
+   padding-top:0px ;
+   padding-bottom:0px ;
 }
 
 nav{
@@ -23,12 +32,14 @@ nav li {
     line-height: 68px ;
 }
 
+.header-image{
+    background:url('/public/img/john-duncan-1144655-unsplash.jpg') center center;
+    background-size:cover;
+
+    height: 100vh;
+}
+
 nav ul a:hover {
     background-color: rgba(0, 0, 0, 0.1);
     height: 100% !important;
-}
-
-.header-image{
-    background: url(/img/chris-barbalis-281802-unsplash.jpg);
-    height: 100vh;
 }

@@ -9,24 +9,24 @@ html(lang="en")
     body
 
     .row 
-        nav
+        .navbar-fixed
+          nav
             .container
                 .nav-wrapper
                     a.brand-logo.left(href='/' ) canariostudio
                         ul#nav-mobile.right.hide-on-med-and-down
                             li
-                                a(href='/') Blog
+                                a(href='/' target='_blank') Inicio
                             li
-                                a(href='/quienes-somos') Portafolio
+                                a(href='/portafolio') Quiénes Somos
                             li
-                                a(href='collapsible.html') HardSkills
-                        ul#nav-mobile.right.hide-on-med-and-down
+                                a(href='/skills') Proyectos
                             li
-                                a(href='sass.html') Inicio
+                                a(href='/inicio') Blog
                             li
-                                a(href='badges.html') Quiénes Somos
+                                a(href='/quienes-somos') HardSkills
                             li
-                                a(href='https://medium.com/canariostudio' blank="_target") Contacto
+                                a(href='/contacto' blank="_target") Contacto
 
         block content
 
