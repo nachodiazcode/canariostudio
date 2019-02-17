@@ -1,18 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,900');
+
+
 body{
-    background: #8e9eab;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #eef2f3, #8e9eab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+   background-color:rgb(221, 236, 243);  
 }
 
 nav{
-    background: #8e9eab;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #eef2f3, #8e9eab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
+    background: #FBD202;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FBD202, #FBD202);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FBD202, #FBD202); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
     height: 72px;   
+    font-family: 'Playfair Display', serif;
+    font-weight: bold ;
 }
 
 a {
-    color:#455A64 !important;
+    color:#000 !important;
     height: 100% !important;
 }
 
@@ -23,4 +26,9 @@ nav li {
 nav ul a:hover {
     background-color: rgba(0, 0, 0, 0.1);
     height: 100% !important;
+}
+
+.header-image{
+    background: url(/img/chris-barbalis-281802-unsplash.jpg);
+    height: 100vh;
 }
