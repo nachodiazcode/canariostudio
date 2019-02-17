@@ -33,9 +33,8 @@ nav li {
 }
 
 .header-image{
-    background:url('/public/img/john-duncan-1144655-unsplash.jpg') center center;
+    background:url('/public/img/lee-campbell-106610-unsplash.jpg') center center;
     background-size:cover;
-
     height: 100vh;
 }
 
