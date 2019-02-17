@@ -59,3 +59,11 @@ string{
     color:rgb(248, 227, 110) !important ;
 }
 
+.profile{
+    padding: 5%;
+}
+
+.image-profile{
+    width: 90px;
+    height: 90px !important;
+}
