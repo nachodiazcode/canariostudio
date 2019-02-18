@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,900');
 
 body{
-   background-color:rgb(221, 236, 243); 
-   padding-bottom: 0% !important ;
+   padding:0 ; 
+   margin:0 ;
+   bottom:0 ;
 }
 
 
@@ -34,13 +35,18 @@ string{
     font-family: 'Playfair Display', serif;
 }
 
+.row{
+    margin:0;
+    padding: 0;
+    bottom: 0;
+    top:0;
+}
 
 .header-image{
     background:url('/public/img/samuel-zeller-158996-unsplash.png') center center;
     background-size:cover;
     height: 700px;
-    margin:0% !important ;
-    padding:0% !important ;
+    margin-top:0px;
 }
 
 .header{
@@ -76,7 +82,7 @@ string{
 
 .header-about{
     background: #37474F;
-    height: 120px ;
+    height: 160px ;
     color:#78909C;
    
 }
