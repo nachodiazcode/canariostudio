@@ -2,17 +2,9 @@
 
 body{
    background-color:rgb(221, 236, 243); 
-   margin: 0px !important; 
-   margin-bottom: 0px ;
-   margin-top:0px ;
-   margin-left:0px ;
-   margin-right:0px ;
-   padding:0px !important ;
-   padding-left:0px ;
-   padding-right:0px ;
-   padding-top:0px ;
-   padding-bottom:0px ;
+   padding-bottom: 0% !important ;
 }
+
 
 nav{
     background: #fff;  /* fallback for old browsers */
@@ -42,21 +34,30 @@ string{
     font-family: 'Playfair Display', serif;
 }
 
-.header{
-    position: relative;
-    margin-top:160px;
-    height: 200px;
-}
 
 .header-image{
     background:url('/public/img/samuel-zeller-158996-unsplash.png') center center;
     background-size:cover;
-    height: 100vh;
+    height: 700px;
+    margin:0% !important ;
+    padding:0% !important ;
+}
+
+.header{
+    position: relative;
+    margin-top:160px;
+    height: 200px;
+    
 }
 
 .title{
     font-weight: bold !important ;
     color:rgb(248, 227, 110) !important ;
+    font-style:italic ;
+}
+
+string{
+    font-style: normal ;
 }
 
 .profile{
@@ -66,4 +67,20 @@ string{
 .image-profile{
     width: 90px;
     height: 90px !important;
+}
+
+#quienes-somos{
+    height: 1400px;
+    
+}
+
+.header-about{
+    background: #37474F;
+    height: 120px ;
+    color:#78909C;
+   
+}
+
+h4{
+    font-weight: bold ;
 }

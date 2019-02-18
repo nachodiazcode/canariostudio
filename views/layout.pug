@@ -6,6 +6,11 @@ html(lang="en")
         title Canariostudio
         link(rel='stylesheet', href='/css/materialize.css')
         link(rel='stylesheet', href='/css/style.css')
+        script( type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js")
+        script( type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js")
+
+        script(src="/js/app.js")
+
     body
 
     .row 
@@ -16,18 +21,37 @@ html(lang="en")
                     a.brand-logo.left(href='/' ) canariostudio
                         ul#nav-mobile.right.hide-on-med-and-down
                             li
-                                a(href='/' target='_blank') Inicio
+                                a(href='/') Inicio
                             li
-                                a(href='/portafolio') Quiénes Somos
+                                a(href='#quienes-somos'  class="page-scroll" aria-hidden="true") Quiénes Somos
                             li
-                                a(href='/skills') Proyectos
+                                a(href='/portafolio') Proyectos
                             li
-                                a(href='/inicio') HardSkills
-                            li
-                                a(href='/quienes-somos') Blog
+                                a(href='/skills') HardSkills
                             li
                                 a(href='/contacto' blank="_target") Contacto
+                            li
+                                a(href='https://medium.com/canariostudio' target='_blank') Blog
 
-        block content
+    block content
+    
+
+    div(class="section scrollspy" id="quienes-somos")
+       
+        .header-about
+            
+            br
+            .container
+                h4 Hola Mi nombre es Ignacio Díaz
+                h5 Fundador de CanarioStudio y me dedico a diseñar prototipos y programarlos
+                
+        .container
+        
+    
+      
+        
+        
+            
+                
 
 
