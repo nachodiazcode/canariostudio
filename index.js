@@ -36,7 +36,7 @@ app.get('/contacto' , (req, res)=>{
     res.render('contacto',{})
 })
 
-app.listen(9000, () => {
-    console.log('Escuchando en el puerto ' + 9000)
+app.listen(3000, () => {
+    console.log('Escuchando en el puerto ' + 3000)
 })
 
