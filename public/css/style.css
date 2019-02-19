@@ -6,7 +6,6 @@ body{
    bottom:0 ;
 }
 
-
 nav{
     background: #fff;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #fff, #fff);  /* Chrome 10-25, Safari 5.1-6 */
@@ -35,6 +34,11 @@ string{
     font-family: 'Playfair Display', serif;
 }
 
+p{
+    font-size:20px;
+   
+}
+
 .row{
     margin:0;
     padding: 0;
@@ -51,7 +55,7 @@ string{
 
 .header{
     position: relative;
-    margin-top:160px;
+    margin-top:200px;
     height: 200px;
     
 }
@@ -71,22 +75,111 @@ string{
 }
 
 .image-profile{
-    width: 90px;
-    height: 90px !important;
+    width: 80px;
+    height: 85px !important;
 }
 
 #quienes-somos{
-    height: 1400px;
-    
+    height: 100%;
+    padding: 0px ;
 }
 
 .header-about{
-    background: #37474F;
+    background-color: #cfd8dc;
     height: 160px ;
-    color:#78909C;
-   
+    color:#78909C;  
+}
+
+.header-project{
+    background-image: url('/img/spacex-549326-unsplash.jpg');
+    background-size:cover;
+    height: 200px ;
+    color:#78909C;  
 }
 
 h4{
+    font-family: 'Playfair Display', serif;
     font-weight: bold ;
+}
+
+h5{
+    font-style: italic ;
+}
+
+.title-biografy2{
+    font-weight: normal ;
+}
+
+.title-biografy{
+    position: relative;
+    top:24px;
+    font-style:italic;
+}
+
+.paragraph{
+    font-weight: bold ;
+    font-size:18px ;
+    margin-left:1%;
+}
+
+.anio{
+    font-family:'roboto';
+    font-size:40px;
+    font-weight: bold ;
+}
+
+.imagen-gallery1{
+    background:url('/public/img/registralo.png');
+    background-size:cover ;
+    height: 500px;
+    margin-right:1%;
+    margin-top:1%;
+}
+
+.imagen-gallery2{
+    background:url('/public/img/clontwitter.png');
+    background-size:cover ;
+    height: 500px;
+    margin-right:1%;
+    margin-top:1%;
+}
+
+.imagen-gallery3{
+    background:url('/public/img/sebadupont.png');
+    background-size:cover ;
+    height: 500px;
+    margin-right:1%;
+    margin-top:1%;
+}
+
+
+.imagen-gallery4{
+    background:url('/public/img/lupulos.png');
+    background-size:cover ;
+    height: 500px;
+    margin-right:1%;
+    margin-top:1%;
+}
+
+.imagen-gallery5{
+    background:url('/public/img/lupulos.png');
+    background-size:cover ;
+    height: 500px;
+    margin-right:1%;
+    margin-top:1%;
+}
+
+
+.tool-img{
+    margin-top:10%;
+}
+
+.tool-img1{
+    margin-top:10%;
+    margin-left:8%;
+}
+
+.tool-img3{
+    margin-top:10%;
+    margin-left:8%;
 }

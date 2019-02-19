@@ -14,6 +14,7 @@ html(lang="en")
     body
 
     .row 
+
         .navbar-fixed
           nav
             .container
@@ -21,32 +22,114 @@ html(lang="en")
                     a.brand-logo.left(href='/' ) canariostudio
                         ul#nav-mobile.right.hide-on-med-and-down
                             li
-                                a(href='/') Inicio
+                                a(href='#inicio') Inicio
                             li
-                                a(href='#quienes-somos'  class="page-scroll" aria-hidden="true") Quiénes Somos
+                                a(href='#quienes-somos'  class="page-scroll") Quién Soy
                             li
-                                a(href='/portafolio') Proyectos
+                                a(href='#proyectos') Proyectos
                             li
-                                a(href='/skills') HardSkills
+                                a(href='#hard-skills') HardSkills
                             li
-                                a(href='/contacto' blank="_target") Contacto
+                                a(href='#contacto') Contacto
                             li
                                 a(href='https://medium.com/canariostudio' target='_blank') Blog
+    
+    include components/header
 
-    block content
+    .row
+        div(class="section scrollspy" id="quienes-somos")
+        
+            .header-about
+                br
+                .container
+                    h4 Hola Mi nombre es Ignacio Díaz
+                    h5 Fundador de CanarioStudio y me dedico a diseñar prototipos y programarlos
+                    br
+                    .col.l6
+                        h2(class="anio") Estudié el año 2010 
+                    .col.L6
+                        .container
+                            h3.blue-gray-text.text-lighten-2 Diseño Digital en UDLA CHILE
+                            p.paragraph En 2014, Me titulé de Técnico en Diseño y Desarrollo web
+                
+                    br
+                    h5.left Algunos de mis mentores en UDLA
+                    ul(class="collection col l12")
+                        li(class="collection-item") 
+                            strong Carlos Solís :  
+                            | CSM, Tech instructor, Author & Full Stack Developer
+                        li(class="collection-item")
+                            strong Rodrigo García :
+                            |  CEO at The Dog Company Chile
+                        li(class="collection-item") 
+                            strong Fernando Court :
+                            |  Jefe de Marketing en BeitGroup
+                        li(class="collection-item") 
+                            strong Rodrigo García :
+                            |  CEO at SmartboxTV SpA
+                        li(class="collection-item") Juán Pablo Buscaglione :
+                            strong   Co-Founder at SmartboxTV S.A.
+       
+
+        .row
+            div(class="section scrollspy" id="hard-skills")
+            
+                .header-about
+                    br
+                    .container
+                        h4 Proyectos Recientes
+                        h5 Me gusta cuando el cliente respeta el proceso...
+                        br
+                .header-project
+                    .container
+                        p.left Desde el mockup en papel a pasar al mockup digital de baja, media y alta para una excelente usabilidad. Luego de sus aprobaciones en reunión pasamos al diseño para terminar con el desarollo back-end y front-end
+
+                        .imagen-gallery1.col.l12.s12
+                        .imagen-gallery2.col.l12.s12
+                        .imagen-gallery3.col.l12.s12
+                        .imagen-gallery4.col.l12.s12
+
+        .row
+            div(class="section scrollspy" id="hard-skills")
+            
+                .header-about
+                    br
+                    .container
+                        h4 Hard-Skills
+                        h5 Las habilidades duras que tengo son varias y me ayudan a hacer un mejor trabajo...
+                        br
+                .header-project
+                    .container
+                        p.left Soy muy motivado y estoy gran parte del día programando y diseñando, me gusta desarrollar en nodejs con pugjs y diseñar los con Sketch.
+                        
+                        .imagen-skill1.col.m3
+                            img(src="/public/img/nodejs.png" class="tool-img1")
+                        .imagen-skill2.col.m3
+                            img(src="/public/img/pugjs.png"  width="130"  height="140" class="tool-img2")
+                        .imagen-skill2.col.m3
+                            img(src="/public/img/2000px-Sass_Logo_Color.svg.png"  width="124"  height="99" class="tool-img3")
+
+                        .imagen-skill2.col.m3
+                            img(src="/public/img/angular.png"  width="135"  height="130" class="tool-img")
+                        .imagen-skill2.col.m3
+                            img(src="/public/img/mongodb.png"  width="130" height="130"  class="tool-img3")
+                        .imagen-skill2.col.m3
+                            img(src="/public/img/firebase.png"  width="100" height="130"  class="tool-img3")
+                        .imagen-skill2.col.m3
+                            img(src="/public/img/html5-logo.png"  width="135" height="130"  class="tool-img")
+                        .imagen-skill2.col.m3
+                            img(src="/public/img/css3-logo-8724075274-seeklogo.com.png"  width="95" height="130"  class="tool-img3")
+
+                    
+
+        
+
+
     
 
-    div(class="section scrollspy" id="quienes-somos")
-       
-        .header-about
+
+                    
             
-            br
-            .container
-                h4 Hola Mi nombre es Ignacio Díaz
-                h5 Fundador de CanarioStudio y me dedico a diseñar prototipos y programarlos
-                
-        .container
-        
     
       
         
