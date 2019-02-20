@@ -154,20 +154,13 @@ h5{
 
 
 .imagen-gallery4{
-    background:url('/public/img/lupulos.png');
+    background:url('/public/img/lupulosapp.png');
     background-size:cover ;
     height: 500px;
     margin-right:1%;
     margin-top:1%;
 }
 
-.imagen-gallery5{
-    background:url('/public/img/lupulos.png');
-    background-size:cover ;
-    height: 500px;
-    margin-right:1%;
-    margin-top:1%;
-}
 
 
 .tool-img{
@@ -182,4 +175,18 @@ h5{
 .tool-img3{
     margin-top:10%;
     margin-left:8%;
+}
+
+.tool-img4{
+    margin-top:10%;
+    margin-left:23%;
+}
+.tool-img5{
+    margin-top:30%;
+    margin-left:10%;
+}
+
+.tool-img6{
+    margin-top:20%;
+    margin-left:20%;
 }
