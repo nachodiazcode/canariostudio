@@ -156,12 +156,10 @@ h5{
 .imagen-gallery4{
     background:url('/public/img/lupulosapp.png');
     background-size:cover ;
-    height: 500px;
+    height: 600px;
     margin-right:1%;
     margin-top:1%;
 }
-
-
 
 .tool-img{
     margin-top:10%;
