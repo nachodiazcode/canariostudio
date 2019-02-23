@@ -17,7 +17,7 @@ app.use('/js', express.static(path.join(__dirname, 'public','js')));
 
 
 app.get('/' , (req, res)=>{
-    res.render('inicio',{})
+    res.render('./inicio',{})
 })
 
 app.get('/quienes-somos' , (req, res)=>{
