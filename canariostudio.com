@@ -19,16 +19,16 @@
 # Default server configuration
 #
 server {
-	listen canariostudio.com:9000;
+	listen canariostudio.com:3000;
 
   root /var/www/canariostudio;
-  index index.html index.htm index.js;
+  index index.html index.htm index.html;
   server_name canariostudio.com;
   access_log /var/log/nginx/canariostudio.access.log;
   error_log /var/log/nginx/canariostudio.error.log debug;
 
   location / {
-    try_files $uri $uri/ /index.js;
+    try_files $uri $uri/ /index.html;
   }
 }
 
