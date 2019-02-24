@@ -1,5 +1,4 @@
 const express = require('express')
-const favicon = require('express-favicon');
 
 const path = require('path')
 
@@ -14,7 +13,6 @@ app.use('/views', express.static(path.join(__dirname, 'views')));
 app.use('/public', express.static(path.join(__dirname, 'public')));
 app.use('/css', express.static(path.join(__dirname, 'public','css')));
 app.use('/js', express.static(path.join(__dirname, 'public','js')));
-
 
 app.get('/' , (req, res)=>{
     res.render('./inicio',{})
