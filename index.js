@@ -16,11 +16,11 @@ app.use('/js', express.static(path.join(__dirname, 'public','js')));
 
 app.get('/' , (req, res)=>{
     res.render('inicio',{
-        
+
     })
 })
 
-app.listen(9000, () => {
-    console.log('Escuchando en el puerto ' + 9000)
+app.listen(80, () => {
+    console.log('Escuchando en el puerto ' + 80)
 })
 
