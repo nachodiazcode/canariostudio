@@ -1,7 +1,5 @@
 const express = require('express')
-
 const path = require('path')
-
 const app = express()
 
 app.set('view engine', 'pug')
@@ -20,7 +18,7 @@ app.get('/' , (req, res)=>{
     })
 })
 
-app.listen(3000, () => {
-    console.log('Escuchando en el puerto ' + 3000)
+app.listen(80, () => {
+    console.log('Escuchando en el puerto ' + 80)
 })
 
