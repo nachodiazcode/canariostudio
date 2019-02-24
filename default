@@ -1,5 +1,5 @@
 server {
-  listen 0.0.0.0:80;
+  listen 206.189.171.0:9000;
 
   root /var/www/canariostudio;
   index index.html index.htm;
@@ -8,6 +8,11 @@ server {
   error_log /var/log/nginx/canariostudio.error.log debug;
 
   location / {
-    try_files $uri $uri/ /views/inicio.pug;
+        root /var/www/canariostudio;
+        index index.html index.htm;
+
+        proxy_pass http://canariostudio.com:9000
+
+
   }
 }
