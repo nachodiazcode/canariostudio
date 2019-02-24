@@ -15,23 +15,7 @@ app.use('/css', express.static(path.join(__dirname, 'public','css')));
 app.use('/js', express.static(path.join(__dirname, 'public','js')));
 
 app.get('/' , (req, res)=>{
-    res.render('./inicio',{})
-})
-
-app.get('/quienes-somos' , (req, res)=>{
-    res.render('quienes-somos',{})
-})
-
-app.get('/skills' , (req, res)=>{
-    res.render('skills',{})
-})
-
-app.get('/portafolio' , (req, res)=>{
-    res.render('portafolio',{})
-})
-
-app.get('/contacto' , (req, res)=>{
-    res.render('contacto',{})
+    res.render('inicio',{})
 })
 
 app.listen(9000, () => {
