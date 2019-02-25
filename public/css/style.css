@@ -39,6 +39,19 @@ p{
    
 }
 
+h4{
+    font-family: 'Playfair Display', serif;
+    font-weight: bold ;
+}
+
+h5{
+    font-style: italic ;
+}
+
+string{
+    font-style: normal ;
+}
+
 .row{
     margin:0;
     padding: 0;
@@ -66,10 +79,6 @@ p{
     font-style:italic ;
 }
 
-string{
-    font-style: normal ;
-}
-
 .profile{
     padding: 5%;
 }
@@ -79,14 +88,15 @@ string{
     height: 85px !important;
 }
 
-#quienes-somos{
-    height: 100%;
-    padding: 0px ;
-}
-
 .header-about{
     background-color: #cfd8dc;
     height: 160px ;
+    color:#000;  
+}
+.header-image-about{
+    background:url('/public/img/jeff-sheldon-3231-unsplash.jpg');
+    background-size:cover;
+    height: 37vh ;
     color:#78909C;  
 }
 
@@ -95,15 +105,6 @@ string{
     background-size:cover;
     height: 200px ;
     color:#78909C;  
-}
-
-h4{
-    font-family: 'Playfair Display', serif;
-    font-weight: bold ;
-}
-
-h5{
-    font-style: italic ;
 }
 
 .title-biografy2{
@@ -122,69 +123,12 @@ h5{
     margin-left:1%;
 }
 
-.anio{
-    font-family:'roboto';
-    font-size:40px;
+.title-about{
+    font-family: 'Playfair Display', serif;
     font-weight: bold ;
 }
 
-.imagen-gallery1{
-    background:url('/public/img/registralo.png');
-    background-size:cover ;
-    height: 500px;
-    margin-right:1%;
-    margin-top:1%;
-}
-
-.imagen-gallery2{
-    background:url('/public/img/clontwitter.png');
-    background-size:cover ;
-    height: 500px;
-    margin-right:1%;
-    margin-top:1%;
-}
-
-.imagen-gallery3{
-    background:url('/public/img/sebadupont.png');
-    background-size:cover ;
-    height: 500px;
-    margin-right:1%;
-    margin-top:1%;
-}
-
-
-.imagen-gallery4{
-    background:url('/public/img/lupulosapp.png');
-    background-size:cover ;
-    height: 600px;
-    margin-right:1%;
-    margin-top:1%;
-}
-
-.tool-img{
-    margin-top:10%;
-}
-
-.tool-img1{
-    margin-top:10%;
-    margin-left:8%;
-}
-
-.tool-img3{
-    margin-top:10%;
-    margin-left:8%;
-}
-
-.tool-img4{
-    margin-top:10%;
-    margin-left:23%;
-}
-.tool-img5{
-    margin-top:30%;
-    margin-left:10%;
-}
-
-.tool-img6{
-    margin-top:20%;
-    margin-left:20%;
+.icon{
+    width: 100px;
+    height: 100px;
 }

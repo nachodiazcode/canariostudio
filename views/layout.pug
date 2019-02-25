@@ -13,140 +13,73 @@ html(lang="en")
     body
 
     .row 
-
         .navbar-fixed
-          nav
-            .container
-                .nav-wrapper
-                    a.brand-logo.left(href='/' ) canariostudio
-                        ul#nav-mobile.right.hide-on-med-and-down
-                            li
-                                a(href='#inicio') Inicio
-                            li
-                                a(href='#quienes-somos') Quién Soy
-                            li
-                                a(href='#proyectos') Proyectos
-                            li
-                                a(href='#hard-skills') HardSkills
-                        
-                            li
-                                a(href='https://medium.com/canariostudio' target='_blank') Blog
+            nav
+                .container
+                    .nav-wrapper
+                        a.brand-logo.left(href='/' ) canariostudio
+                            ul#nav-mobile.right.hide-on-med-and-down
+                                li
+                                    a(href='#inicio') Inicio
+                                li
+                                    a(href='#quien-soy') ¿Por qué elegir canariostudio?
+                                li
+                                    a(href='#proyectos') Proyectos
+                                li
+                                    a(href='https://medium.com/canariostudio' target='_blank') Blog
     
     include components/header
 
-    .row
-        div(class="section scrollspy" id="quienes-somos")
-        
-            .header-about
-                br
+        .row    
+            div(class="section scrollspy" id="quien-soy")
+                h2(class="center title-about ") 3 razones para elegir CanarioStudio
                 .container
-                    h4 Hola Mi nombre es Ignacio Díaz
-                    h5 Fundador de CanarioStudio y me dedico a diseñar prototipos y programarlos
                     br
-                    .col.l12
-                        h2(class="anio center") Estudié el año 2010 
-                    .col.L12
-                        .container
-                            h3.blue-gray-text.text-lighten-2.center Diseño Digital en UDLA CHILE
-                            p.paragraph.center En 2014, Me titulé de Técnico en Diseño y Desarrollo web
-                
-                    br
-                    h5.left Algunos de mis mentores en UDLA
-                    ul(class="collection col l12")
-                        li(class="collection-item") 
-                            strong Carlos Solís :  
-                            | CSM, Tech instructor, Author & Full Stack Developer
-                        li(class="collection-item")
-                            strong Rodrigo García :
-                            |  CEO at The Dog Company Chile
-                        li(class="collection-item") 
-                            strong Fernando Court :
-                            |  Jefe de Marketing en BeitGroup
-                        li(class="collection-item") 
-                            strong Rodrigo García :
-                            |  CEO at SmartboxTV SpA
-                        li(class="collection-item") Juán Pablo Buscaglione :
-                            strong   Co-Founder at SmartboxTV S.A.
-       
-
+                    .col.s12.m4.l4.center
+                        img(src="/public/img/web-design.png" class="responsive-img icon")
+                        p  Desarrollo y diseño de aplicaciones con las últimas tecnologías avanzadas para una mejor perfomance y posicionamiento web.
+                    .col.s12.m4.l4.center
+                        img(src="/public/img/server.png" class="responsive-img icon")
+                        p  Si no tienes servidor, podemos subirlo a una plataforma open source para aplicaciones de alta calidad, por un periodo indefinido. 
+                    .col.s12.m4.l4.center
+                        img(src="/public/img/backup.png" class="responsive-img icon")
+                        p  Tú proyecto esta siempre respaldado con control de versiones y aplicamos metodologías agiles para una mejor fluides.
+                                         
         .row
             div(class="section scrollspy" id="proyectos")
-            
+
                 .header-about
                     br
                     .container
-                        h4 Proyectos Recientes
-                        h5 Me gusta cuando el cliente respeta el proceso...
+                        h4 Proyectos Desarrollados
+                        h5 Proyectos personales y profesionales 
                         br
                 .header-project
-                    .container
-                        p.left Desde el mockup en papel a pasar al mockup digital de baja, media y alta para una excelente usabilidad. Luego de sus aprobaciones en reunión pasamos al diseño para terminar con el desarollo back-end y front-end
 
-                        .imagen-gallery1.col.l12.s12
-                        .imagen-gallery2.col.l12.s12
-                    
-                      
-        .row
-            div(class="section scrollspy" id="hard-skills")
-            
-                .header-about
-                    br
-                    .container
-                        h4 Hard-Skills
-                        h5 Las habilidades duras que tengo son varias y me ayudan a hacer un mejor trabajo...
-                        br
-                .header-project
-                    .container
-                        p.left Soy muy motivado y estoy gran parte del día programando y diseñando, me gusta desarrollar en nodejs con pugjs y diseñar los con Sketch.
-                        
-                        .imagen-skill1.col.m3
-                            img(src="/public/img/1024px-Unofficial_JavaScript_logo_2.svg.png"  width="110"  height="120"  class="tool-img3")
-                        .imagen-skill2.col.m3
-                            img(src="/public/img/pugjs.png"  width="130"  height="140" class="tool-img2")
-                        .imagen-skill2.col.m3
-                            img(src="/public/img/2000px-Sass_Logo_Color.svg.png"  width="124"  height="99" class="tool-img3")
+                        .imagen-gallery1.col.s12.m12.l12.center-align
+                            .container
+                                h3(class="left title-about black-text col s12 m12 l12") Lupulos app
+                                p(class=" black-text left") Aplicación contruida para los amantes de la cerveza, una red social donde podrás encontrar datos interesantes de cervezas y seguir a otros cerveceros para formar comunidades.
+                                img(src="/public/img/lupulos.png" class="responsive-img")
+                            .container
+                                h3(class="left title-about black-text col s12 m12 l12") Regístralo
+                                p(class=" black-text left") Desarrollo Full-stack de un app para registro de productos. Proyecto en proceso, Regístralo surge como una idea de mejorar la seguridad de la venta de segunda mano.
+                                img(src="/public/img/registralo.png" class="responsive-img")
+                            .container
+                                h3(class="left title-about black-text col s12 m12 l12") Tweeter Clon
+                                p(class=" black-text left") Proyecto personal, diseño de una aplicación similar a twetter. Fue Un desafío aplicando buenas prácticas, Mucho entusiasmo y tiempo.
+                                img(src="/public/img/twetterClon.png" class="responsive-img")
+                            .container
+                                h3(class="left title-about black-text col s12 m12 l12") Sebastián Dupont
 
-                        .imagen-skill2.col.m3
-                            img(src="/public/img/angular.png"  width="135"  height="130" class="tool-img")
-                        .imagen-skill2.col.m3
-                            img(src="/public/img/mongodb.png"  width="130" height="130"  class="tool-img3")
-                        .imagen-skill2.col.m3
-                            img(src="/public/img/firebase.png"  width="100" height="130"  class="tool-img3")
-                        .imagen-skill2.col.m3
-                            img(src="/public/img/html5-logo.png"  width="135" height="130"  class="tool-img")
-                        .imagen-skill2.col.m3
-                            img(src="/public/img/css3-logo-8724075274-seeklogo.com.png"  width="95" height="130"  class="tool-img3")
-                        .imagen-skill2.col.m3
-                            img(src="/public/img/gulp.svg.png"  width="70" height="120"  class="tool-img4")
-                        .imagen-skill2.col.m3
-                            img(src="/public/img/materialize.png"  width="120" height="auto"  class="tool-img5")
-                        .imagen-skill2.col.m3
-                            img(src="/public/img/digitalocean.png"  width="120" height="120"  class="tool-img3")
-                        .imagen-skill2.col.m3
-                            img(src="/public/img/android-studio.jpg"  width="120" height="120"  class="tool-img3")
-                        .imagen-skill2.col.m3
-                            img(src="/public/img/github.png"  width="90" height="90"  class="tool-img6")
-                        .imagen-skill2.col.m3
-                            img(src="/public/img/nodejs.png"  width="82" height="90"  class="tool-img6")
-
-          
-
-    
-        
-
-        
-
-
+                                p(class=" black-text left") Sitio web desarrollado y diseñado para un actor de doblaje, el objetivo del proyecto es obtener una mayor cantidad de clientes.
+                                img(src="/public/img/sebadupont.png" class="responsive-img")
+                            
+           
     
 
 
-                    
-            
-    
-      
-        
-        
-            
-                
+
+
 
 
