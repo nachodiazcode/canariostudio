@@ -62,7 +62,7 @@ string{
 .header-image{
     background:url('/public/img/samuel-zeller-158996-unsplash.png') center center;
     background-size:cover;
-    height: 700px;
+    height: 100vh;
     margin-top:0px;
 }
 
